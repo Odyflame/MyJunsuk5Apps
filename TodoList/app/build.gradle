@@ -14,7 +14,7 @@ android {
     buildToolsVersion "29.0.0"
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
-        applicationId "com.example.todolist"
+        applicationId "com.MyTodo.todolist"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
