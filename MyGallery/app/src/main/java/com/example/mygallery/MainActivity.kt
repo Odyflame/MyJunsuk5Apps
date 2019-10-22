@@ -87,7 +87,6 @@ class MainActivity : AppCompatActivity() {
             cursor.close()
         }
 
-
         //어댑터
         val adapter = MyPagerAdapter(supportFragmentManager)
         adapter.updateFragment(fragments)
@@ -125,6 +124,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
 
 }

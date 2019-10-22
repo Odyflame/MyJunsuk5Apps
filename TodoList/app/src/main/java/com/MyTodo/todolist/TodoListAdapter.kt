@@ -12,7 +12,7 @@ class TodoListAdapter(realmResult: OrderedRealmCollection<Todo>) :RealmBaseAdapt
 
     //아이템에 표시하는 뷰를 구성한다. getView 메서드는 매 아이템이 화면에 보일 때마다 호출됨
     //두번째 인자인 convertView는 아이템 작성전에는 null이고 한번작성했으면 이전에 작성했던 뷰 호출
-    //
+    //convertView가 null이면 레이아웃을 작성한다
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View? {
 
         val vh : ViewHolder
